@@ -68,7 +68,7 @@ def load_modules():
          cfg.log("skipping %s" % name)
 
 def parse_arguments():
-   parser = argparse.ArgumentParser(description='Plinth web interface for the FreedomBox.')
+   parser = argparse.ArgumentParser(description='Plinth web interface for system configuration.')
    parser.add_argument('--pidfile', default="",
                        help='specify a file in which the server may write its pid')
    args=parser.parse_args()
